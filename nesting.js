@@ -140,8 +140,13 @@ var myCar = {
 */
 
 //Code Here
-
-
+const recordCleaner = () => {
+  for(let i = 0; i < myCar.accidents.length; i++){
+    myCar.accidents[i].atFaultForAccident = false
+  }
+}
+recordCleaner()
+console.log(myCar);
 
 ////////// PROBLEM 5 //////////
 
