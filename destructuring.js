@@ -54,7 +54,9 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+function totalPopulation( obj ) {
+  const {utah, california, texas, arizona} = obj
+}
 
 
 ////////// PROBLEM 4 //////////
