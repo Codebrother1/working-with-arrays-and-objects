@@ -92,9 +92,11 @@ const monstersInYourPocket = [{"monster":"Bulbabunny","CP":156},{"monster":"Bulb
 */
 
 //Code Here
-let myStrongest // = monstersInYourPocket.filter(/* Provide Your Callback Here */)
+// let myStrongest // = monstersInYourPocket.filter(/* Provide Your Callback Here */)
 
-
+let myStrongest = monstersInYourPocket.filter(function(monster){
+return monster["CP"] > 200;
+});
 
 ////////// PROBLEM 5 //////////
 
