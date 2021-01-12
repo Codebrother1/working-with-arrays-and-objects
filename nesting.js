@@ -97,10 +97,11 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+let grumpyActivity = cat.catFriends[0].activities[1]
+let fluffy2ndFriend = cat.catFriends[1].name
 
-
+console.log(grumpyActivity);
+console.log(fluffy2ndFriend);
 
 ////////// PROBLEM 4 //////////
 
